@@ -1,0 +1,45 @@
+# macOS clutter
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Temporary and system-level folders that don’t belong in version control
+/Volumes
+/private
+/tmp
+/cores
+**/*.log
+
+# Editor junk
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local history, temp, and backup files
+*.bak
+*.old
+*.tmp
+*.cache
+*.local
+*.history
+
+# Reports and scans – keep the folder structure, ignore file contents
+/reports/*
+!reports/.keep
+
+# Node or Python tools
+node_modules/
+.env
+.venv/
+__pycache__/
+*.pyc
+
+# Anything machine-specific or scan-generated
+preferences_backup.json
+chrome_scan_results.json
+
+# Just in case – local Git config
+.gitconfig
